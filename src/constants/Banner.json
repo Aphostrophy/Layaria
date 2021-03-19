@@ -1,0 +1,10 @@
+[
+    {
+        "id" : 0,
+        "image" : "../../assets/Banner/Banner.jpg"
+    },
+    {
+        "id" : 1,
+        "image" : "../../assets/Banner/Banner2.jpg"
+    }
+]

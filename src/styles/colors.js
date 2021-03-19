@@ -4,7 +4,7 @@ export const COLORS = {
   IDarkBlue: '#1565C0',
 	IDeepDarkBlue : '#0d47a1',
   IBlue: '#2196F3',
-  IGrey: '#B1B1B',
+  IGrey: '#B1B1B1',
   IWhite: '#FFFFFF',
 	IBlack: '#000000',
   IBrokenBlack: '#525252',

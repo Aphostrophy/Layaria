@@ -48,10 +48,6 @@ const styles = StyleSheet.create({
   },
   inputsearchbar: {
     height: 40,
-    // borderRadius:
-    //   Math.round(
-    //     Dimensions.get('window').width + Dimensions.get('window').height,
-    //   ) / 2,
     borderRadius:10,
     borderWidth: 0,
     backgroundColor: COLORS.IWhite,

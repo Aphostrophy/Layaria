@@ -1,0 +1,26 @@
+[
+    {
+        "id" : "1",
+        "daysRemaining": 2,
+        "pelabuhan" : "Pelabuhan Sunda Kelapa",
+        "date": "12/04/2021",
+        "initiator": "Alexander",
+        "activity" : "Pariwisata",
+        "price": "Rp 1.000.000",
+        "totalParticipants" : 18,
+        "maxParticipants" : 30,
+        "image" : "../../assets/Patungan/Patungan1.jpg"
+    },
+    {
+        "id" : "2",
+        "daysRemaining": 1,
+        "pelabuhan" : "Pelabuhan Ancol",
+        "date": "11/04/2021",
+        "initiator": "Jesson Yo",
+        "activity" : "Memancing",
+        "price": "Rp 200.000",
+        "totalParticipants" : 2,
+        "maxParticipants" : 4,
+        "image" : "../../assets/Patungan/Patungan2.jpg"
+    }
+]

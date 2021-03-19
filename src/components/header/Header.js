@@ -23,7 +23,7 @@ const HeaderSearch = ({navigation}) => {
   return (
     <SearchBar
       searchIcon={<SearchIcon props={colorProps}/>}
-      placeholder="Type Here..."
+      placeholder="mau berlayar ke mana?"
       onChangeText={(query)=>setSearchQuery(query)}
       containerStyle={styles.searchbar}
       inputContainerStyle={styles.inputsearchbar}
@@ -34,8 +34,8 @@ const HeaderSearch = ({navigation}) => {
 
 const styles = StyleSheet.create({
   header: {
-    height: 110,
     borderWidth: 0,
+    paddingTop: 10,
     backgroundColor: COLORS.IBlue,
   },
   searchbar: {
@@ -48,10 +48,11 @@ const styles = StyleSheet.create({
   },
   inputsearchbar: {
     height: 40,
-    borderRadius:
-      Math.round(
-        Dimensions.get('window').width + Dimensions.get('window').height,
-      ) / 2,
+    // borderRadius:
+    //   Math.round(
+    //     Dimensions.get('window').width + Dimensions.get('window').height,
+    //   ) / 2,
+    borderRadius:10,
     borderWidth: 0,
     backgroundColor: COLORS.IWhite,
   },

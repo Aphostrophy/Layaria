@@ -1,8 +1,9 @@
 import React, { useEffect } from 'react';
-import {StyleSheet, Text, View, FlatList} from 'react-native';
+import {StyleSheet, Text, View, FlatList, Dimensions} from 'react-native';
 import {SafeAreaView} from 'react-native-safe-area-context';
+import {Button, Card, Paragraph,Badge} from 'react-native-paper';
+
 import Banner from '../Carousel/Carousel';
-import {Button, Card, Paragraph} from 'react-native-paper';
 
 //Constants
 import PATUNGAN from '../../constants/Patungan.json';
@@ -29,9 +30,31 @@ const HeaderComponent = () => {
 const _renderPatungan = ({item,index}) => {
     return(
         <View>
-          <Card>
+          <Card style={styles.patungan}>
             <Card.Cover source={IMAGES[index]}/>
-            <Card.Title>{item.pelabuhan}</Card.Title>
+            <Card.Title title="Card Title"/>
+            <Card.Content>
+							<View style={styles.flexrow}>
+								<Badge>3</Badge>
+								<Text>{item.pelabuhan}</Text>
+							</View>
+							<View style={styles.flexrow}>
+								<Badge>3</Badge>
+								<Text>{item.date}</Text>
+							</View>
+							<View style={styles.flexrow}>
+								<Badge>3</Badge>
+								<Text>Card content</Text>
+							</View>
+							<View style={styles.flexrow}>
+								<Badge>3</Badge>
+								<Text>{item.initiator}</Text>
+							</View>
+							<View style={styles.flexrow}>
+								<Badge>3</Badge>
+								<Text>{item.activity}</Text>
+							</View>
+            </Card.Content>
           </Card>
         </View>
     )
@@ -58,8 +81,13 @@ const styles = StyleSheet.create({
         justifyContent:'center',
     },
     outerContainer:{
-        marginHorizontal: 20,
+        width:'100%',
+        alignItems:'center',
+        justifyContent:'center',
     },
+		flexrow:{
+			flexDirection: 'row',
+		},
     headerComponent:{
       marginBottom:20,
     },
@@ -79,6 +107,11 @@ const styles = StyleSheet.create({
         justifyContent: 'space-around',
         backgroundColor:'pink',
     },
+    patungan: {
+        width: Dimensions.get('window').width * 0.45,
+				height: 380,
+        margin: 5,
+    }
 })
 
 export default Home;

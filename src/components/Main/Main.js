@@ -150,7 +150,7 @@ const OrderStack: React.FC = () => {
 
 const IconBottom = (props: any) => {
   const {color, focused} = props.data;
-  const colorSelected = focused ? COLORS.IDeepDarkBlue : color;
+  const colorSelected = focused ? COLORS.IDeepDarkBlue : COLORS.IWhite;
   const colorProps = {
     color: colorSelected,
   };

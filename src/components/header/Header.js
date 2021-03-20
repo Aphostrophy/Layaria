@@ -24,6 +24,7 @@ const HeaderSearch = ({navigation}) => {
     <SearchBar
       searchIcon={<SearchIcon props={colorProps}/>}
       placeholder="mau berlayar ke mana?"
+      onFocus={()=>navigation.navigate('Search')}
       onChangeText={(query)=>setSearchQuery(query)}
       containerStyle={styles.searchbar}
       inputContainerStyle={styles.inputsearchbar}

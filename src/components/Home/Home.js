@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import {StyleSheet, Text, View, FlatList, Dimensions,TouchableOpacity} from 'react-native';
+import {StyleSheet, Text, View, FlatList, Dimensions,TouchableOpacity, Image} from 'react-native';
 import {SafeAreaView} from 'react-native-safe-area-context';
 import {Avatar, Divider,IconButton,Button, Card, Paragraph,Badge} from 'react-native-paper';
 import * as Progress from 'react-native-progress';
@@ -7,7 +7,7 @@ import * as Progress from 'react-native-progress';
 import Banner from '../Carousel/Carousel';
 
 //Constants
-import PATUNGAN from '../../constants/Patungan.json';
+import PATUNGAN from '../../constants/PatunganHighlight.json';
 import { COLORS } from '../../styles/colors';
 import {ProfileCardIcon,CalendarIcon,LocationIcon,ParticipantIcon,ActivityIcon} from '../../styles/icons'
 
@@ -22,8 +22,19 @@ const HeaderComponent = () => {
             <View style={styles.box}>
                 <Banner/>
             </View>
-            <View style={[styles.box,{width:'100%'}]}>
+            <View style={[styles.box,{width:'100%',marginTop:-20}]}>
                 <Text style={styles.title}>Patungan sewa kapal yuk</Text>
+            </View>
+        </View>
+    )
+}
+
+const FooterComponent = () =>{
+    return(
+        <View style={[styles.container]}>
+            <View style={[styles.box,{width:'100%',marginBottom:20}]}>
+                <Text style={styles.title}>Cerita untuk kamu</Text>
+                <Image style={{height: 250,width: Dimensions.get('window').width *0.9,resizeMode:'stretch'}}source={require('../../assets/CeritaUntukmu.jpg')} />
             </View>
         </View>
     )
@@ -33,14 +44,21 @@ const _renderPatungan = ({item,index}) => {
     return(
         <View>
           <Card style={styles.patungan}>
-            <Card.Cover source={IMAGES[index]}/>
+            <Card.Cover style={{height:110}} source={IMAGES[index]}/>
             <Card.Title
-                style={{marginTop:-20}}
-                left={(props) => <Text>A</Text>}
-                right={(props) => <Progress.Bar style={{right:20}} progress={item.totalParticipants/item.maxParticipants} width={120} height={9} borderRadius={40}/>}
+                style={{marginTop:-20,alignItems:'center',justifyContent:'center'}}
+                rightStyle={{paddingTop:10}}
+                left={(props) => {
+                    return(
+                    <View style={{alignItems:'center',justifyContent:'center',marginLeft:-20,marginTop:20}}>
+                        <ParticipantIcon props={{color:COLORS.IBlue}}/>
+                        <Text style={{color:COLORS.IBlue}}>{item.totalParticipants}/{item.maxParticipants}</Text>
+                    </View>)}
+                }
+                right={(props) => <Progress.Bar useNativeDriver={false} style={{right:15}} progress={item.totalParticipants/item.maxParticipants} color={COLORS.IBlue} width={120} height={15} borderRadius={40}/>}
             />
             <Card.Content>
-                <View style={[styles.flexrow,{marginTop:-20,marginLeft:-5}]}>
+                <View style={[styles.flexrow,{marginTop:0,marginLeft:-5}]}>
                     <LocationIcon props={{color:COLORS.IBlue}} />
                     <Text>{item.pelabuhan}</Text>
                 </View>
@@ -79,6 +97,7 @@ const Home = ({navigation}) =>{
                 keyExtractor={(item) => item.id}
                 renderItem={(item,index)=>_renderPatungan(item,index)}
                 ListHeaderComponent={HeaderComponent}
+                ListFooterComponent={FooterComponent}
                 numColumns={2}
             />
         </SafeAreaView>
@@ -107,6 +126,7 @@ const styles = StyleSheet.create({
     title:{
         color: COLORS.IDarkBlue,
         fontSize: 20,
+        fontWeight: 'bold',
         textAlign: 'left',
         alignSelf: 'stretch',
     },
@@ -121,7 +141,7 @@ const styles = StyleSheet.create({
     },
     patungan: {
         width: Dimensions.get('window').width * 0.45,
-		height: 440,
+		height: 390,
         margin: 5,
     },
     button:{

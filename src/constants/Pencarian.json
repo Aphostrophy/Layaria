@@ -1,18 +1,18 @@
 [
     {
-        "id" : "1",
+        "id" : 0,
         "nama" : "Kapal Stima",
-        "pelabuhan" : "Pelabuhan Sunda Kelapa",
-        "initiator": "Fransiskus Febryan",
+        "pelabuhan" : "Pelabuhan Sunda Kelapa,Jakarta Utara,Indonesia",
+        "owner": "Fransiskus Febryan",
         "price": "Rp 2.000.000",
         "maxParticipants" : 8,
         "rating" : 4,
         "image" : "../../assets/Pencarian/Pencarian1.jpg"
     },
     {
-        "id" : "2",
+        "id" : 1,
         "nama" : "Kapal Basdat",
-        "pelabuhan" : "Pelabuhan Sunda Kelapa",
+        "pelabuhan" : "Pelabuhan Sunda Kelapa,Jakarta Utara,Indonesia",
         "owner": "Josephus",
         "price": "Rp 300.000",
         "maxParticipants" : 3,

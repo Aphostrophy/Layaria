@@ -7,8 +7,8 @@ import {COLORS} from '../../styles/colors';
 import BANNER from '../../constants/Banner.json';
 
 const IMAGES = [
-  require('../../assets/Banner/Banner1.jpg'),
-  require('../../assets/Banner/Banner2.jpg'),
+  require('../../assets/Banner/Banner1.png'),
+  require('../../assets/Banner/Banner2.png'),
 ]
 
 const Banner = ({navigation}) =>{
@@ -17,9 +17,8 @@ const Banner = ({navigation}) =>{
     const _renderItem = ({item,index}) => {
         return(
           <View style={{
-            backgroundColor:'floralwhite',
             width: Dimensions.get('window').width *0.9,
-            height: 200,
+            height: 190,
           }}>
             <Image
               source={IMAGES[index]}
@@ -40,7 +39,7 @@ const Banner = ({navigation}) =>{
               width: 10,
               height: 10,
               borderRadius: 5,
-              marginHorizontal: 8,
+              marginHorizontal: -10,
               backgroundColor: COLORS.IBlue,
             }}
             inactiveDotStyle={{
@@ -71,7 +70,6 @@ const styles = StyleSheet.create({
   container:{
     alignItems:'center',
     justifyContent:'center',
-    backgroundColor:'black',
   },
   image: {
     width:'100%',

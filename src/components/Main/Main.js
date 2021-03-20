@@ -10,6 +10,7 @@ import React, {useContext, useEffect} from 'react';
 
 // Screen Components
 import Home from '../Home/Home'
+import Search from '../Search/Search'
 import OrderScreen from '../Order/Order'
 import ChatScreen from '../Chat/Chat'
 import Profile from '../Profile/Profile'
@@ -103,6 +104,14 @@ const HomeStack: React.FC = () => {
       <StackHome.Screen
         name="Home"
         component={Home}
+        options={{
+          // eslint-disable-next-line react/display-name
+          header: (props) => <Header {...props} />,
+        }}
+      />
+      <StackHome.Screen
+        name="Search"
+        component={Search}
         options={{
           // eslint-disable-next-line react/display-name
           header: (props) => <Header {...props} />,

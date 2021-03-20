@@ -3,20 +3,50 @@
         "id" : 0,
         "nama" : "Kapal Stima",
         "pelabuhan" : "Pelabuhan Sunda Kelapa,Jakarta Utara,Indonesia",
-        "owner": "Fransiskus Febryan",
+        "owner": "Ryan",
         "price": "Rp 2.000.000",
         "maxParticipants" : 8,
-        "rating" : 4,
+        "rating" : 5,
         "image" : "../../assets/Pencarian/Pencarian1.jpg"
     },
     {
         "id" : 1,
         "nama" : "Kapal Basdat",
         "pelabuhan" : "Pelabuhan Sunda Kelapa,Jakarta Utara,Indonesia",
-        "owner": "Josephus",
+        "owner": "Josep",
         "price": "Rp 300.000",
         "maxParticipants" : 3,
         "rating" : 4,
         "image" : "../../assets/Pencarian/Pencarian2.jpg"
+    },
+    {
+        "id" : 2,
+        "nama" : "Kapal Hanoman",
+        "pelabuhan" : "Pelabuhan Sunda Kelapa,Jakarta Utara,Indonesia",
+        "owner": "Grace",
+        "price": "Rp 1.250.000",
+        "maxParticipants" : 6,
+        "rating" : 5,
+        "image" : "../../assets/Pencarian/Pencarian3.jpg"
+    },
+    {
+        "id" : 3,
+        "nama" : "Kapal Cepot",
+        "pelabuhan" : "Pelabuhan Sunda Kelapa,Jakarta Utara,Indonesia",
+        "owner": "Handayani",
+        "price": "Rp 1.300.000",
+        "maxParticipants" : 4,
+        "rating" : 4.5,
+        "image" : "../../assets/Pencarian/Pencarian4.jpg"
+    },
+    {
+        "id" : 4,
+        "nama" : "Kapal Petruk",
+        "pelabuhan" : "Pelabuhan Sunda Kelapa,Jakarta Utara,Indonesia",
+        "owner": "Wuri",
+        "price": "Rp 300.000",
+        "maxParticipants" : 2,
+        "rating" : 5,
+        "image" : "../../assets/Pencarian/Pencarian5.jpg"
     }
 ]

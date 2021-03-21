@@ -264,5 +264,27 @@ const ThunderStormIcon : React.FC<{props: SvgProps}> = ({props}: {props: SvgProp
   )
 };
 
+const AccountIcon : React.FC<{props: SvgProps}> = ({props}: {props: SvgProps}) => {
+  return(
+    <Svg
+      width={50}
+      height={50}
+      viewBox="0 0 50 50"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <Path
+        d="M50 25C50 11.183 38.819 0 25 0 11.183 0 0 11.181 0 25c0 13.695 11.088 25 25 25 13.855 0 25-11.242 25-25zM25 2.93c12.17 0 22.07 9.9 22.07 22.07 0 4.452-1.324 8.73-3.78 12.355-9.86-10.606-26.703-10.625-36.58 0A21.968 21.968 0 012.93 25c0-12.17 9.9-22.07 22.07-22.07zM8.537 39.697c8.766-9.833 24.162-9.831 32.926 0-8.796 9.841-24.126 9.844-32.926 0z"
+        fill={props.color}
+      />
+      <Path
+        d="M25 26.465c4.846 0 8.79-3.943 8.79-8.79v-2.929c0-4.846-3.944-8.789-8.79-8.789-4.846 0-8.79 3.943-8.79 8.79v2.929c0 4.846 3.944 8.789 8.79 8.789zm-5.86-11.719A5.866 5.866 0 0125 8.886a5.866 5.866 0 015.86 5.86v2.93a5.866 5.866 0 01-5.86 5.86 5.866 5.866 0 01-5.86-5.86v-2.93z"
+        fill={props.color}
+      />
+    </Svg>
+  )
+}
 
-export {HomeIcon,OrderIcon,ChatIcon,ProfileIcon,SearchIcon,ActivityIcon,LocationIcon,ParticipantIcon,CalendarIcon,ProfileCardIcon,CloudyIcon,SunnyIcon,ThunderStormIcon,RainyIcon};
+
+export {HomeIcon,OrderIcon,ChatIcon,ProfileIcon,SearchIcon,ActivityIcon,LocationIcon,ParticipantIcon,CalendarIcon,ProfileCardIcon,CloudyIcon,SunnyIcon,ThunderStormIcon,RainyIcon,AccountIcon};

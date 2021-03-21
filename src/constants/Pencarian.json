@@ -36,7 +36,7 @@
         "owner": "Handayani",
         "price": "Rp 1.300.000",
         "maxParticipants" : 4,
-        "rating" : 4.5,
+        "rating" : 3,
         "image" : "../../assets/Pencarian/Pencarian4.jpg"
     },
     {
@@ -48,5 +48,45 @@
         "maxParticipants" : 2,
         "rating" : 5,
         "image" : "../../assets/Pencarian/Pencarian5.jpg"
+    },
+    {
+        "id" : 5,
+        "nama" : "Kapal Layang",
+        "pelabuhan" : "Pantai Tanjung Kelayang,Belitung,Indonesia",
+        "owner": "Bambang",
+        "price": "Rp 2.200.000",
+        "maxParticipants" : 6,
+        "rating" : 5,
+        "image" : "../../assets/Pencarian/Pencarian6.jpg"
+    },
+    {
+        "id" : 6,
+        "nama" : "Kapal Bapak Petrus",
+        "pelabuhan" : "Pantai Tanjung Kelayang,Belitung,Indonesia",
+        "owner": "Rahmat",
+        "price": "Rp 2.500.000",
+        "maxParticipants" : 5,
+        "rating" : 5,
+        "image" : "../../assets/Pencarian/Pencarian7.jpg"
+    },
+    {
+        "id" : 7,
+        "nama" : "Kapal ITB",
+        "pelabuhan" : "Pantai Tanjung Kelayang,Belitung,Indonesia",
+        "owner": "Toto",
+        "price": "Rp 1.800.000",
+        "maxParticipants" : 6,
+        "rating" : 5,
+        "image" : "../../assets/Pencarian/Pencarian8.jpg"
+    },
+    {
+        "id" : 8,
+        "nama" : "Kapal Semar",
+        "pelabuhan" : "Pantai Tanjung Kelayang,Belitung,Indonesia",
+        "owner": "Ani",
+        "price": "Rp 1.900.000",
+        "maxParticipants" : 5,
+        "rating" : 5,
+        "image" : "../../assets/Pencarian/Pencarian9.jpg"
     }
 ]

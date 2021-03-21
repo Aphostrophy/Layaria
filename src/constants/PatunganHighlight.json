@@ -9,7 +9,7 @@
         "price": "Rp 1.000.000",
         "totalParticipants" : 18,
         "maxParticipants" : 30,
-        "image" : "../../assets/Patungan/Patungan1.jpg"
+        "image" : "../../assets/PatunganHighlight/Patungan1.jpg"
     },
     {
         "id" : "2",
@@ -21,6 +21,6 @@
         "price": "Rp 200.000",
         "totalParticipants" : 2,
         "maxParticipants" : 4,
-        "image" : "../../assets/Patungan/Patungan2.jpg"
+        "image" : "../../assets/PatunganHighlight/Patungan2.jpg"
     }
 ]

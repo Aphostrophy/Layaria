@@ -1,0 +1,68 @@
+[
+  {
+    "id" : 0,
+    "nama" : "Kapal Sister",
+    "pelabuhan" : "Pelabuhan Sunda Kelapa,Jakarta Utara,Indonesia",
+    "initiator": "Alexander",
+    "activity" : "Memancing",
+    "price": "Rp 1.000.000",
+    "totalParticipant": 1,
+    "maxParticipants" : 4,
+    "image" : "../../assets/Patungan/Patungan1.jpg"
+  },
+  {
+    "id" : 1,
+    "nama" : "Kapal Bu Siti",
+    "pelabuhan" : "Pelabuhan Sunda Kelapa,Jakarta Utara,Indonesia",
+    "initiator": "Galih",
+    "activity" : "Pariwisata",
+    "price": "Rp 2.000.000",
+    "totalParticipant": 20,
+    "maxParticipants" : 30,
+    "image" : "../../assets/Patungan/Patungan2.jpg"
+  },
+  {
+    "id" : 2,
+    "nama" : "Kapal Sekip",
+    "pelabuhan" : "Pelabuhan Sunda Kelapa,Jakarta Utara,Indonesia",
+    "initiator": "Simon",
+    "activity" : "Bersantai",
+    "price": "Rp 250.000",
+    "totalParticipant": 5,
+    "maxParticipants" : 7,
+    "image" : "../../assets/Patungan/Patungan3.jpg"
+  },
+  {
+    "id" : 3,
+    "nama" : "Kapal Tambak",
+    "pelabuhan" : "Pantai Tanjung Kelayang,Belitung,Indonesia",
+    "initiator": "Adit",
+    "activity" : "Berkeliling",
+    "price": "Rp 350.000",
+    "totalParticipant": 5,
+    "maxParticipants" : 10,
+    "image" : "../../assets/Patungan/Patungan4.jpg"
+  },
+  {
+    "id" : 4,
+    "nama" : "Kapal Sentosa",
+    "pelabuhan" : "Pantai Tanjung Kelayang,Belitung,Indonesia",
+    "initiator": "Jarwo",
+    "activity" : "Pariwisata",
+    "price": "Rp 2.000.000",
+    "totalParticipant": 1,
+    "maxParticipants" : 5,
+    "image" : "../../assets/Patungan/Patungan5.jpg"
+  },
+  {
+    "id" : 5,
+    "nama" : "Kapal Sister",
+    "pelabuhan" : "Pantai Tanjung Kelayang,Belitung,Indonesia",
+    "initiator": "Rinaldo",
+    "activity" : "Pariwisata",
+    "price": "Rp 2.000.000",
+    "totalParticipant": 2,
+    "maxParticipants" : 8,
+    "image" : "../../assets/Patungan/Patungan6.jpg"
+  }
+]

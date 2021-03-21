@@ -284,7 +284,7 @@ const AccountIcon : React.FC<{props: SvgProps}> = ({props}: {props: SvgProps}) =
       />
     </Svg>
   )
-}
+};
 
 
 export {HomeIcon,OrderIcon,ChatIcon,ProfileIcon,SearchIcon,ActivityIcon,LocationIcon,ParticipantIcon,CalendarIcon,ProfileCardIcon,CloudyIcon,SunnyIcon,ThunderStormIcon,RainyIcon,AccountIcon};

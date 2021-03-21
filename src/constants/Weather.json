@@ -1,0 +1,97 @@
+[
+  {
+    "date" : "31-03-2021",
+    "weather" : "cloudy",
+    "temp" : "22"
+  },
+  {
+    "date" : "01-04-2021",
+    "weather" : "sunny",
+    "temp" : "29"
+  },
+  {
+    "date" : "02-04-2021",
+    "weather" : "thunderstorm",
+    "temp" : "17"
+  },
+  {
+    "date" : "03-04-2021",
+    "weather" : "sunny",
+    "temp" : "23"
+  },
+  {
+    "date" : "04-04-2021",
+    "weather" : "cloudy",
+    "temp" : "21"
+  },
+  {
+    "date" : "05-04-2021",
+    "weather" : "sunny",
+    "temp" : "24"
+  },
+  {
+    "date" : "06-04-2021",
+    "weather" : "rainy",
+    "temp" : "19"
+  },
+  {
+    "date" : "07-04-2021",
+    "weather" : "thunderstorm",
+    "temp" : "17"
+  },
+  {
+    "date" : "08-04-2021",
+    "weather" : "sunny",
+    "temp" : "22"
+  },
+  {
+    "date" : "09-04-2021",
+    "weather" : "rainy",
+    "temp" : "18"
+  },
+  {
+    "date" : "10-04-2021",
+    "weather" : "sunny",
+    "temp" : "23"
+  },
+  {
+    "date" : "11-04-2021",
+    "weather" : "sunny",
+    "temp" : "26"
+  },
+  {
+    "date" : "12-04-2021",
+    "weather" : "thunderstorm",
+    "temp" : "15"
+  },
+  {
+    "date" : "13-04-2021",
+    "weather" : "sunny",
+    "temp" : "25"
+  },
+  {
+    "date" : "14-04-2021",
+    "weather" : "rainy",
+    "temp" : "20"
+  },
+  {
+    "date" : "15-04-2021",
+    "weather" : "sunny",
+    "temp" : "28"
+  },
+  {
+    "date" : "16-04-2021",
+    "weather" : "cloudy",
+    "temp" : "23"
+  },
+  {
+    "date" : "17-04-2021",
+    "weather" : "thunderstorm",
+    "temp" : "19"
+  },
+  {
+    "date" : "18-04-2021",
+    "weather" : "sunny",
+    "temp" : "27"
+  }
+]

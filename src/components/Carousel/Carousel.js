@@ -9,6 +9,9 @@ import BANNER from '../../constants/Banner.json';
 const IMAGES = [
   require('../../assets/Banner/Banner1.png'),
   require('../../assets/Banner/Banner2.png'),
+  require('../../assets/Banner/Banner3.png'),
+  require('../../assets/Banner/Banner4.png'),
+  require('../../assets/Banner/Banner5.png'),
 ]
 
 const Banner = ({navigation}) =>{

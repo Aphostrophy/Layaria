@@ -1,0 +1,20 @@
+[
+	{
+		"id": 0,
+		"name": "Pak Joko",
+		"role":"Pemilik Kapal Stima",
+		"date":"22/04/2021"
+	},
+	{
+		"id": 1,
+		"name": "Ibu Lani",
+		"role":"Pemilik Kapal basdat",
+		"date":"17/04/2021"
+	},
+	{
+		"id": 2,
+		"name": "Mas Jaka",
+		"role":"Koordinator Acara Mancing",
+		"date":"18/04/2021"
+	}
+]

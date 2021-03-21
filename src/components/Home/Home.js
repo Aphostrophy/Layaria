@@ -5,6 +5,7 @@ import {Avatar, Divider,IconButton,Button, Card, Paragraph,Badge} from 'react-na
 import * as Progress from 'react-native-progress';
 
 import Banner from '../Carousel/Carousel';
+import Dash from 'react-native-dash';
 
 //Constants
 import PATUNGAN from '../../constants/PatunganHighlight.json';
@@ -42,41 +43,41 @@ const FooterComponent = () =>{
 
 const _renderPatungan = ({item,index}) => {
     return(
-        <View>
+        <View style={{minHeight:345}}>
           <Card style={styles.patungan}>
-            <Card.Cover style={{height:110}} source={IMAGES[index]}/>
+            <Card.Cover style={{height:110,width: Dimensions.get('window').width * 0.45,marginLeft:7.5}} source={IMAGES[index]}/>
             <Card.Title
                 style={{marginTop:-20,alignItems:'center',justifyContent:'center'}}
                 rightStyle={{paddingTop:10}}
                 left={(props) => {
                     return(
-                    <View style={{alignItems:'center',justifyContent:'center',marginLeft:-20,marginTop:20}}>
+                    <View style={{alignItems:'center',justifyContent:'center',marginTop:20}}>
                         <ParticipantIcon props={{color:COLORS.IBlue}}/>
                         <Text style={{color:COLORS.IBlue}}>{item.totalParticipants}/{item.maxParticipants}</Text>
                     </View>)}
                 }
-                right={(props) => <Progress.Bar useNativeDriver={false} style={{right:15}} progress={item.totalParticipants/item.maxParticipants} color={COLORS.IBlue} width={120} height={15} borderRadius={40}/>}
+                right={(props) => <Progress.Bar useNativeDriver={false} style={{right:15}} progress={item.totalParticipants/item.maxParticipants} color={COLORS.IBlue} width={110} height={15} borderRadius={40}/>}
             />
             <Card.Content>
-                <View style={[styles.flexrow,{marginTop:0,marginLeft:-5}]}>
+                <View style={[styles.flexrow,{marginLeft:5}]}>
                     <LocationIcon props={{color:COLORS.IBlue}} />
                     <Text>{item.pelabuhan}</Text>
                 </View>
-                <View style={[styles.flexrow,{marginLeft:-5}]}>
+                <View style={[styles.flexrow,{marginLeft:5}]}>
                     <CalendarIcon props={{color:COLORS.IBlue}} />
                     <Text>{item.date}</Text>
                 </View>
-                <View style={[styles.flexrow,{marginLeft:-5}]}>
+                <View style={[styles.flexrow,{marginLeft:5}]}>
                     <ProfileCardIcon props={{color:COLORS.IBlue}} />
                     <Text>{item.initiator}</Text>
                 </View>
-                <View style={[styles.flexrow,{marginLeft:-5}]}>
+                <View style={[styles.flexrow,{marginLeft:5}]}>
                     <ActivityIcon props={{color:COLORS.IBlue}} />
                     <Text>{item.activity}</Text>
                 </View>
-                <Divider/>
-                <View style={[styles.flexrow]}>
-                    <Text style={{color:COLORS.IDarkBlue,fontWeight:'bold'}}>{item.price}</Text>
+                <Dash dashThickness={1} dashColor={COLORS.IGrey} style={{width:'100%', height:1}}/>
+                <View style={[styles.flexrow,{marginLeft:5}]}>
+                    <Text style={{fontSize: 16,color:COLORS.IDarkBlue,fontWeight:'bold'}}>{item.price}</Text>
                 </View>
                 <View style={[styles.flexrow]}>
                     <TouchableOpacity style={styles.button}>
@@ -94,7 +95,7 @@ const Home = ({navigation}) =>{
         <SafeAreaView style={styles.outerContainer}>
             <FlatList
                 data={PATUNGAN}
-                keyExtractor={(item) => item.id}
+                keyExtractor={(item) => item.id.toString()}
                 renderItem={(item,index)=>_renderPatungan(item,index)}
                 ListHeaderComponent={HeaderComponent}
                 ListFooterComponent={FooterComponent}
@@ -141,8 +142,9 @@ const styles = StyleSheet.create({
     },
     patungan: {
         width: Dimensions.get('window').width * 0.45,
-		height: 390,
+		minHeight: 345,
         margin: 5,
+        alignItems:'center',
     },
     button:{
         backgroundColor:COLORS.IBlue,

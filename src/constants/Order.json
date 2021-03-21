@@ -1,0 +1,36 @@
+[
+  {
+    "id" : 0,
+    "dateNumber" : "20",
+    "date" : "Selasa, April 2021",
+    "pelabuhan" : "Pelabuhan Sunda Kelapa",
+    "name" : "Kapal Maritim",
+    "owner" : "Pak Joko",
+    "finished" : false
+  },
+  {
+    "id" : 1,
+    "dateNumber" : "28",
+    "date" : "Minggu,April 2021",
+    "pelabuhan" : "Pelabuhan Sunda Kelapa",
+    "name" : "Kapal Arjuna",
+    "owner" : "Pak Anwar",
+    "finished" : false
+  },
+  {
+    "id" : 2,
+    "dateNumber" : "22",
+    "date" : "Senin, Maret 2021",
+    "pelabuhan" : "Pantai Tanjung Kelayang",
+    "name" : "Kapal Lodaya",
+    "finished" : true
+  },
+  {
+    "id" : 3,
+    "dateNumber" : "28",
+    "date" : "Minggu, Maret 2021",
+    "pelabuhan" : "Pantai Tanjung Kelayang",
+    "name" : "Kapal Andala",
+    "finished" : true
+  }
+]

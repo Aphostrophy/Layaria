@@ -6,7 +6,7 @@
     "initiator": "Alexander",
     "activity" : "Memancing",
     "price": "Rp 1.000.000",
-    "totalParticipant": 1,
+    "totalParticipants": 1,
     "maxParticipants" : 4,
     "image" : "../../assets/Patungan/Patungan1.jpg"
   },
@@ -17,7 +17,7 @@
     "initiator": "Galih",
     "activity" : "Pariwisata",
     "price": "Rp 2.000.000",
-    "totalParticipant": 20,
+    "totalParticipants": 20,
     "maxParticipants" : 30,
     "image" : "../../assets/Patungan/Patungan2.jpg"
   },
@@ -28,7 +28,7 @@
     "initiator": "Simon",
     "activity" : "Bersantai",
     "price": "Rp 250.000",
-    "totalParticipant": 5,
+    "totalParticipants": 5,
     "maxParticipants" : 7,
     "image" : "../../assets/Patungan/Patungan3.jpg"
   },
@@ -39,7 +39,7 @@
     "initiator": "Adit",
     "activity" : "Berkeliling",
     "price": "Rp 350.000",
-    "totalParticipant": 5,
+    "totalParticipants": 5,
     "maxParticipants" : 10,
     "image" : "../../assets/Patungan/Patungan4.jpg"
   },
@@ -50,7 +50,7 @@
     "initiator": "Jarwo",
     "activity" : "Pariwisata",
     "price": "Rp 2.000.000",
-    "totalParticipant": 1,
+    "totalParticipants": 1,
     "maxParticipants" : 5,
     "image" : "../../assets/Patungan/Patungan5.jpg"
   },
@@ -61,7 +61,7 @@
     "initiator": "Rinaldo",
     "activity" : "Pariwisata",
     "price": "Rp 2.000.000",
-    "totalParticipant": 2,
+    "totalParticipants": 2,
     "maxParticipants" : 8,
     "image" : "../../assets/Patungan/Patungan6.jpg"
   }

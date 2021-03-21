@@ -4,6 +4,23 @@ import {AccountIcon} from '../../styles/icons'
 import {COLORS} from '../../styles/colors';
 import CHAT from '../../constants/Chat.json';
 import { Colors } from 'react-native/Libraries/NewAppScreen';
+import { TouchableOpacity } from 'react-native-gesture-handler';
+
+const whatsappMsg = 'Halo, saya ingin bertanya mengenai kapal ini';
+
+const openWhatsApp = (item) => {
+    Linking.canOpenURL(`whatsapp://send?phone=${item.telp}&text=${whatsappMsg}`)
+      .then(() => {
+        Linking.openURL(
+          `whatsapp://send?phone=${item.telp}&text=${whatsappMsg}`,
+        ).catch(() =>
+          Alert.alert('Whatsapp needs to be installed on your device'),
+        );
+      })
+      .catch((err) => {
+        Alert.alert(err);
+      });
+  };
 
 const ChatScreen = ({navigation}) =>{
     if (CHAT == null){
@@ -25,20 +42,20 @@ const ChatScreen = ({navigation}) =>{
                 renderItem={({item}) => (
                     // <View style ={styles.rowicon}>
                     <View style ={styles.personalChat}> 
+                            <TouchableOpacity onPress={() => openWhatsApp(item)}>
                         <View style ={styles.row}>
                             <View style={{paddingRight:15}} >
                                 <AccountIcon props={{color:COLORS.IDeepDarkBlue}}/>           
                             </View>
                             <View style={{flexGrow:2}}>
-                                <Text>
-                                    <Text style={styles.nameText}>{item.name}{"\n"}</Text>
-                                    <Text style={styles.roleText}>{item.role}</Text>
-                                </Text>
+                                <Text numberOfLines={1} style={styles.nameText}>{item.name}{"\n"}</Text>
+                                <Text numberOfLines={1} style={styles.roleText}>{item.role}</Text>
                             </View>
                             <View style={{alignContent:'flex-end',alignItems:'flex-end',}}>
                                 <Text style={styles.dateText}>{item.date}</Text>
                             </View>
                         </View>
+                            </TouchableOpacity>
                     </View>
                     // </View>
                     )}
@@ -97,15 +114,17 @@ const styles = StyleSheet.create({
         fontSize:16,
         fontWeight: "bold",
         color : COLORS.IBlue,
-        justifyContent:"flex-start"
+        justifyContent:"flex-start",
+        width:175,
     },
     roleText:{
         fontSize:16,
         color : COLORS.IBlue,
+        width:175,
     },
     dateText:{
         color : COLORS.IBlue,
-        fontSize:16,
+        fontSize:14,
         // justifyContent:'flex-end',
         // alignContent:'flex-end',
         alignSelf:'stretch',

@@ -7,7 +7,6 @@ import {createMaterialBottomTabNavigator} from '@react-navigation/material-botto
 import {createMaterialTopTabNavigator} from '@react-navigation/material-top-tabs';
 import React, {useContext, useEffect} from 'react';
 
-
 // Screen Components
 import Home from '../Home/Home'
 import Search from '../Search/Search'
@@ -151,7 +150,7 @@ const OrderStack: React.FC = () => {
       <StackOrder.Screen
         name="Order"
         component={OrderScreen}
-        options={{title: 'Pesanan'}}
+        options={{headerShown:false}}
       />
     </StackOrder.Navigator>
   );

@@ -2,96 +2,229 @@
   {
     "date" : "31-03-2021",
     "weather" : "cloudy",
-    "temp" : "22"
+    "temp" : "22",
+    "pelabuhan" : "Pelabuhan Sunda Kelapa,Jakarta Utara,Indonesia"
   },
   {
     "date" : "01-04-2021",
     "weather" : "sunny",
-    "temp" : "29"
+    "temp" : "29",
+    "pelabuhan" : "Pelabuhan Sunda Kelapa,Jakarta Utara,Indonesia"
   },
   {
     "date" : "02-04-2021",
     "weather" : "thunderstorm",
-    "temp" : "17"
+    "temp" : "17",
+    "pelabuhan" : "Pelabuhan Sunda Kelapa,Jakarta Utara,Indonesia"
   },
   {
     "date" : "03-04-2021",
     "weather" : "sunny",
-    "temp" : "23"
+    "temp" : "23",
+    "pelabuhan" : "Pelabuhan Sunda Kelapa,Jakarta Utara,Indonesia"
   },
   {
     "date" : "04-04-2021",
     "weather" : "cloudy",
-    "temp" : "21"
+    "temp" : "21",
+    "pelabuhan" : "Pelabuhan Sunda Kelapa,Jakarta Utara,Indonesia"
   },
   {
     "date" : "05-04-2021",
     "weather" : "sunny",
-    "temp" : "24"
+    "temp" : "24",
+    "pelabuhan" : "Pelabuhan Sunda Kelapa,Jakarta Utara,Indonesia"
   },
   {
     "date" : "06-04-2021",
     "weather" : "rainy",
-    "temp" : "19"
+    "temp" : "19",
+    "pelabuhan" : "Pelabuhan Sunda Kelapa,Jakarta Utara,Indonesia"
   },
   {
     "date" : "07-04-2021",
     "weather" : "thunderstorm",
-    "temp" : "17"
+    "temp" : "17",
+    "pelabuhan" : "Pelabuhan Sunda Kelapa,Jakarta Utara,Indonesia"
   },
   {
     "date" : "08-04-2021",
     "weather" : "sunny",
-    "temp" : "22"
+    "temp" : "22",
+    "pelabuhan" : "Pelabuhan Sunda Kelapa,Jakarta Utara,Indonesia"
   },
   {
     "date" : "09-04-2021",
     "weather" : "rainy",
-    "temp" : "18"
+    "temp" : "18",
+    "pelabuhan" : "Pelabuhan Sunda Kelapa,Jakarta Utara,Indonesia"
   },
   {
     "date" : "10-04-2021",
     "weather" : "sunny",
-    "temp" : "23"
+    "temp" : "23",
+    "pelabuhan" : "Pelabuhan Sunda Kelapa,Jakarta Utara,Indonesia"
   },
   {
     "date" : "11-04-2021",
     "weather" : "sunny",
-    "temp" : "26"
+    "temp" : "26",
+    "pelabuhan" : "Pelabuhan Sunda Kelapa,Jakarta Utara,Indonesia"
   },
   {
     "date" : "12-04-2021",
     "weather" : "thunderstorm",
-    "temp" : "15"
+    "temp" : "15",
+    "pelabuhan" : "Pelabuhan Sunda Kelapa,Jakarta Utara,Indonesia"
   },
   {
     "date" : "13-04-2021",
     "weather" : "sunny",
-    "temp" : "25"
+    "temp" : "25",
+    "pelabuhan" : "Pelabuhan Sunda Kelapa,Jakarta Utara,Indonesia"
   },
   {
     "date" : "14-04-2021",
     "weather" : "rainy",
-    "temp" : "20"
+    "temp" : "20",
+    "pelabuhan" : "Pelabuhan Sunda Kelapa,Jakarta Utara,Indonesia"
   },
   {
     "date" : "15-04-2021",
     "weather" : "sunny",
-    "temp" : "28"
+    "temp" : "28",
+    "pelabuhan" : "Pelabuhan Sunda Kelapa,Jakarta Utara,Indonesia"
   },
   {
     "date" : "16-04-2021",
     "weather" : "cloudy",
-    "temp" : "23"
+    "temp" : "23",
+    "pelabuhan" : "Pelabuhan Sunda Kelapa,Jakarta Utara,Indonesia"
   },
   {
     "date" : "17-04-2021",
     "weather" : "thunderstorm",
-    "temp" : "19"
+    "temp" : "19",
+    "pelabuhan" : "Pelabuhan Sunda Kelapa,Jakarta Utara,Indonesia"
   },
   {
     "date" : "18-04-2021",
     "weather" : "sunny",
-    "temp" : "27"
+    "temp" : "27",
+    "pelabuhan" : "Pelabuhan Sunda Kelapa,Jakarta Utara,Indonesia"
+  },
+  {
+    "date" : "31-03-2021",
+    "weather" : "sunny",
+    "temp" : "24",
+    "pelabuhan" : "Pantai Tanjung Kelayang,Belitung,Indonesia"
+  },
+  {
+    "date" : "01-04-2021",
+    "weather" : "cloudy",
+    "temp" : "22",
+    "pelabuhan" : "Pantai Tanjung Kelayang,Belitung,Indonesia"
+  },
+  {
+    "date" : "02-04-2021",
+    "weather" : "thunderstorm",
+    "temp" : "16",
+    "pelabuhan" : "Pantai Tanjung Kelayang,Belitung,Indonesia"
+  },
+  {
+    "date" : "03-04-2021",
+    "weather" : "thunderstorm",
+    "temp" : "18",
+    "pelabuhan" : "Pantai Tanjung Kelayang,Belitung,Indonesia"
+  },
+  {
+    "date" : "04-04-2021",
+    "weather" : "sunny",
+    "temp" : "26",
+    "pelabuhan" : "Pantai Tanjung Kelayang,Belitung,Indonesia"
+  },
+  {
+    "date" : "05-04-2021",
+    "weather" : "cloudy",
+    "temp" : "20",
+    "pelabuhan" : "Pantai Tanjung Kelayang,Belitung,Indonesia"
+  },
+  {
+    "date" : "06-04-2021",
+    "weather" : "rainy",
+    "temp" : "17",
+    "pelabuhan" : "Pantai Tanjung Kelayang,Belitung,Indonesia"
+  },
+  {
+    "date" : "07-04-2021",
+    "weather" : "thunderstorm",
+    "temp" : "17",
+    "pelabuhan" : "Pantai Tanjung Kelayang,Belitung,Indonesia"
+  },
+  {
+    "date" : "08-04-2021",
+    "weather" : "sunny",
+    "temp" : "22",
+    "pelabuhan" : "Pantai Tanjung Kelayang,Belitung,Indonesia"
+  },
+  {
+    "date" : "09-04-2021",
+    "weather" : "cloudy",
+    "temp" : "19",
+    "pelabuhan" : "Pantai Tanjung Kelayang,Belitung,Indonesia"
+  },
+  {
+    "date" : "10-04-2021",
+    "weather" : "rainy",
+    "temp" : "17",
+    "pelabuhan" : "Pantai Tanjung Kelayang,Belitung,Indonesia"
+  },
+  {
+    "date" : "11-04-2021",
+    "weather" : "cloudy",
+    "temp" : "23",
+    "pelabuhan" : "Pantai Tanjung Kelayang,Belitung,Indonesia"
+  },
+  {
+    "date" : "12-04-2021",
+    "weather" : "rainy",
+    "temp" : "17",
+    "pelabuhan" : "Pantai Tanjung Kelayang,Belitung,Indonesia"
+  },
+  {
+    "date" : "13-04-2021",
+    "weather" : "cloudy",
+    "temp" : "19",
+    "pelabuhan" : "Pantai Tanjung Kelayang,Belitung,Indonesia"
+  },
+  {
+    "date" : "14-04-2021",
+    "weather" : "cloudy",
+    "temp" : "21",
+    "pelabuhan" : "Pantai Tanjung Kelayang,Belitung,Indonesia"
+  },
+  {
+    "date" : "15-04-2021",
+    "weather" : "sunny",
+    "temp" : "28",
+    "pelabuhan" : "Pantai Tanjung Kelayang,Belitung,Indonesia"
+  },
+  {
+    "date" : "16-04-2021",
+    "weather" : "rainy",
+    "temp" : "20",
+    "pelabuhan" : "Pantai Tanjung Kelayang,Belitung,Indonesia"
+  },
+  {
+    "date" : "17-04-2021",
+    "weather" : "cloudy",
+    "temp" : "22",
+    "pelabuhan" : "Pantai Tanjung Kelayang,Belitung,Indonesia"
+  },
+  {
+    "date" : "18-04-2021",
+    "weather" : "thunderstorm",
+    "temp" : "19",
+    "pelabuhan" : "Pantai Tanjung Kelayang,Belitung,Indonesia"
   }
 ]
